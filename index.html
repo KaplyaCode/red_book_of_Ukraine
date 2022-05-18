@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <!-- encoding -->
+    <meta charset="UTF-8" />
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Title and SEO -->
+    <title>Червона книга</title>
+    <meta name="description" content="Червона книга" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./scripts/slick.min.js"></script>
+
+
+    <!--Web fonts-->
+    <link rel="stylesheet" href="./css/fonts/intro/intro.css">
+    <link rel="stylesheet" href="./css/fonts/roboto/roboto.css">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Червона книга України" />
+    <meta property="og:description" content="Інформація про зникаючих тварин" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon.svg">
+    <link rel="shortcut icon" href="./img/icons/favicon.svg">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar__logo">
+                <div class="logo">
+                    <img src="./img/icons/book.png" alt="Red book logo">
+                </div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="tree" id="tree">
+                    <li>Тварини
+                        <ul>
+                            <li>
+                                <a class="coral" href="#"><img src="./img/icons/nav_icons/coral.png" alt="Corals">Кишковопорожнинні</a>
+                            </li>
+                            <li>
+                                <a class="parasite" href="#"><img src="./img/icons/nav_icons/parasite.svg" alt="Parasite">Круглі черви</a>
+                            </li>
+                            <li>
+                                <a class="ring_worm" href="#"><img src="./img/icons/nav_icons/ring_worm.png" alt="Ring worm">Кільчасті черви</a>
+                            </li>
+                            <li>
+                                <a class="tarantula" href="#"><img src="./img/icons/nav_icons/tarantula.svg" alt="Tarantula">Членистоногі</a>
+                            </li>
+                            <li>
+                                <a class="shellfish" href="#"><img src="./img/icons/nav_icons/shellfish.png" alt="Shellfishe">Молюски</a>
+                            </li>
+                            <li>
+                                <a class="cat" href="#"><img src="./img/icons/nav_icons/cat.svg" alt="Cat">Хордові</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Рослини
+                        <ul>
+                            <li>
+                                <a class="cactus" href="#"><img src="./img/icons/nav_icons/cactus.svg" alt="Cactus">Судинні рослини</a>
+                            </li>
+                            <li>
+                                <a class="mashroom" href="#"><img src="./img/icons/nav_icons/mashroom.png" alt="Mashroom">Гриби</a>
+                            </li>
+                            <li>
+                                <a class="seaweed" href="#"><img src="./img/icons/nav_icons/seaweed.svg" alt="Seaweed">Водорості</a>
+                            </li>
+                            <li>
+                                <a class="moss" href="#"><img src="./img/icons/nav_icons/moss.png" alt="Moss">Мохоподібні</a>
+                            </li>
+                            <li>
+                                <a class="lichens" href="#"><img src="./img/icons/nav_icons/lichens.png" alt="Lichens">Лишайники</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="help">
+                <a href="https://redbook-ua.org/" title="Червона книга України"><img alt="Червона книга України" src="https://redbook-ua.org/media/images/redbook.gif" /></a>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div class="header__content">
+                    <form class="search">
+                        <label class="search__label">
+                        <img src="./img/icons/search.svg" alt="Search">
+                        <input class="search__input" type="text" placeholder="Пошук">
+                        <ul class="elastic__items">
+                        </ul>
+                    </label>
+                    </form>
+                </div>
+            </header>
+            <section class="slider">
+                <div class="container__main">
+                    <div class="slider__inner">
+                        <div class="slider__item">
+                            <div class="slider__item-content">
+                                <div class="slider__title">
+                                    "Коли висохне останнє дерево і помре остання тварина, ви зрозумієте, що у Всевишнього для вас немає іншої Землі"
+                                </div>
+                                <div class="slider__author">
+                                    Б.Д. Орлі
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-content">
+                                <div class="slider__title">
+                                    "Набувши надлюдської сили, ми самі стали нелюдяними"
+                                </div>
+                                <div class="slider__author">
+                                    Альберт Швейцер
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-content">
+                                <div class="slider__title">
+                                    "За час мого життя ми нанесли природі більше шкоди, ніж за всю історію людства"
+                                </div>
+                                <div class="slider__author">
+                                    Девід Аттенборо
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Scripts -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/categories_class.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/search.js"></script>
+</body>
+
+</html>

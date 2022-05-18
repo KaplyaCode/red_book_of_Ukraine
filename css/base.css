@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.6875;
+    font-weight: bold;
+    background-image: url(https://izki.ua/wp-content/uploads/2019/02/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+
+/* Utility */
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    opacity: 0;
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+}
